@@ -1,112 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Verde essência - Mudas de Plantas</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f0f8f5;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background: #2e7d32;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .produtos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 20px;
-    }
-    .produto {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin: 10px;
-      width: 280px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
-    .produto img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-    }
-    .produto h3 {
-      margin: 10px;
-    }
-    .produto p {
-      margin: 0 10px 10px;
-    }
-    .botao-whatsapp {
-      background: #25d366;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-      margin: 10px;
-    }
-    footer {
-      background: #2e7d32;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-    }
-  </style>
+  <title>Verde Essência - Plantas Naturais</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 </head>
-<body>
-
+<body id="inicio">
   <header>
-    <h1>Verde essência</h1>
-    <p>Mudas ornamentais, frutíferas e medicinais direto do produtor</p>
+    <h1>Verde Essência</h1>
+    <p>Chácara Rosa dos Ventos - Estrada Pinheiro Grosso - Barbacena MG</p>
+    <p>Contato: (32) 99194-6853</p>
   </header>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#plantas">Plantas</a>
+    <a href="#temperos">Temperos</a>
+    <a href="#chas">Chás</a>
+    <a href="#frutiferas">Frutíferas</a>
+    <a href="#promocoes">Promoções</a>
+    <a href="#blog">Blog</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <div class="banner">Bem-vindo à Verde Essência</div>
 
-  <section class="produtos">
+  <section id="plantas" class="produtos">
+    <h2>Plantas Ornamentais</h2>
     <div class="produto">
-      <img src="https://cdn.pixabay.com/photo/2016/05/04/11/16/basil-1371925_1280.jpg" alt="Manjericão">
-      <h3>Manjericão</h3>
-      <p>Muda de manjericão fresca e aromática.</p>
-      <a class="botao-whatsapp" href="https://wa.me/5532991946853?text=Olá! Tenho interesse na muda de manjericão.">Quero essa muda</a>
+      <img src="imagens/lavanda.jpg" alt="Lavanda">
+      <h3>Lavanda</h3>
+      <p>R$ 15,00</p>
     </div>
     <div class="produto">
-      <img src="https://cdn.pixabay.com/photo/2022/06/08/08/41/papaya-7248832_1280.jpg" alt="Mamão">
-      <h3>Mamão</h3>
-      <p>Muda de mamão formosa saudável.</p>
-      <a class="botao-whatsapp" href="https://wa.me/5532991946853?text=Olá! Tenho interesse na muda de mamão.">Quero essa muda</a>
-    </div>
-    <div class="produto">
-      <img src="https://cdn.pixabay.com/photo/2020/10/26/08/01/aloe-vera-5686903_1280.jpg" alt="Babosa">
-      <h3>Babosa</h3>
-      <p>Babosa para uso medicinal e estético.</p>
-      <a class="botao-whatsapp" href="https://wa.me/5532991946853?text=Olá! Tenho interesse na muda de babosa.">Quero essa muda</a>
-    </div>
-    <div class="produto">
-      <img src="https://cdn.pixabay.com/photo/2021/03/20/15/55/rosemary-6109541_1280.jpg" alt="Alecrim">
-      <h3>Alecrim</h3>
-      <p>Muda de alecrim forte e perfumada.</p>
-      <a class="botao-whatsapp" href="https://wa.me/5532991946853?text=Olá! Tenho interesse na muda de alecrim.">Quero essa muda</a>
-    </div>
-    <div class="produto">
-      <img src="https://cdn.pixabay.com/photo/2020/03/22/13/33/pink-rose-4956364_1280.jpg" alt="Rosa">
-      <h3>Rosa</h3>
-      <p>Muda de rosa ornamental para jardim.</p>
-      <a class="botao-whatsapp" href="https://wa.me/5532991946853?text=Olá! Tenho interesse na muda de rosa.">Quero essa muda</a>
+      <img src="imagens/espada-de-sao-jorge.jpg" alt="Espada de São Jorge">
+      <h3>Espada de São Jorge</h3>
+      <p>R$ 12,00</p>
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Verde essência - Todos os direitos reservados</p>
-  </footer>
+  <section id="temperos" class="produtos">
+    <h2>Temperos</h2>
+    <div class="produto">
+      <img src="imagens/manjericao.jpg" alt="Manjericão">
+      <h3>Manjericão</h3>
+      <p>R$ 8,00</p>
+    </div>
+    <div class="produto">
+      <img src="imagens/salsa.jpg" alt="Salsa">
+      <h3>Salsa</h3>
+      <p>R$ 7,00</p>
+    </div>
+  </section>
 
+  <section id="chas" class="produtos">
+    <h2>Plantas para Chás</h2>
+    <div class="produto">
+      <img src="imagens/cidreira.jpg" alt="Erva Cidreira">
+      <h3>Erva Cidreira</h3>
+      <p>R$ 10,00</p>
+    </div>
+    <div class="produto">
+      <img src="imagens/hortela.jpg" alt="Hortelã">
+      <h3>Hortelã</h3>
+      <p>R$ 10,00</p>
+    </div>
+  </section>
+
+  <section id="frutiferas" class="produtos">
+    <h2>Frutíferas</h2>
+    <div class="produto">
+      <img src="imagens/acerola.jpg" alt="Acerola">
+      <h3>Acerola</h3>
+      <p>R$ 20,00</p>
+    </div>
+    <div class="produto">
+      <img src="imagens/pitanga.jpg" alt="Pitanga">
+      <h3>Pitanga</h3>
+      <p>R$ 22,00</p>
+    </div>
+  </section>
+
+  <section id="promocoes" class="produtos">
+    <h2>Promoções</h2>
+    <p>Aproveite ofertas exclusivas em nossas mudas selecionadas!</p>
+    <div class="produto">
+      <img src="imagens/alecrim.jpg" alt="Alecrim">
+      <h3>Alecrim</h3>
+      <p><del>R$ 10,00</del> <strong>R$ 7,00</strong></p>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>Dicas de cultivo, sustentabilidade e jardinagem natural.</p>
+    <ul>
+      <li><a href="#">Como cultivar ervas aromáticas em casa</a></li>
+      <li><a href="#">Top 5 frutíferas para quintais pequenos</a></li>
+      <li><a href="#">Plantas que purificam o ar do ambiente</a></li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <h2>Perguntas Frequentes (FAQ)</h2>
+    <details>
+      <summary>Fazem entregas em toda a região?</summary>
+      <p>Sim, entregamos em Barbacena e região. Consulte o valor do frete.</p>
+    </details>
+    <details>
+      <summary>As mudas são orgânicas?</summary>
+      <p>Sim, todas são cultivadas com métodos naturais e sem agrotóxicos.</p>
+    </details>
+    <details>
+      <summary>Posso retirar na chácara?</summary>
+      <p>Sim! Combinamos o melhor horário para retirada.</p>
+    </details>
+  </section>
+
+  <section id="contato" style="padding: 40px; background-color: #f0f8f0;">
+    <h2>Contato</h2>
+    <p>WhatsApp: (32) 99194-6853</p>
+    <p>Email: verdeessencia@chacararosadosventos.com</p>
+    <p>Endereço: Chácara Rosa dos Ventos - Estrada Pinheiro Grosso - Barbacena MG</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Verde Essência | Desenvolvido na Chácara Rosa dos Ventos
+  </footer>
 </body>
 </html>
